@@ -1,0 +1,99 @@
+.avt {
+    width: 280px;
+    height: 280px;
+    background-color: rgb(83, 156, 150);
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infomation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 32px;
+}
+
+.desc {
+    margin-top: 30px;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: red;
+    color: black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 24px;
+}
+
+.card {
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    background-color: orange;
+}
+
+.groupImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+.img {
+    display: flex;
+    margin-top: 50px;
+    height: 560px;
+}
+
+.feedback {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.star {
+    color: gold;
+    margin-left: 20px;
+}
+
+.comment {
+    border-radius: 20px;
+    border: 1px solid rgb(83, 156, 150);
+    margin: 50px 0;
+    padding: 30px 150px;
+}
+
+.avt-user {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    margin-right: 20px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
